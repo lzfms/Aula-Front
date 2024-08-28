@@ -1,0 +1,77 @@
+body{
+    
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+/* para mecher somente na imagem no topo */
+#topo img{
+
+    width: 100px;
+    float: left;  
+}
+
+#menu{
+
+    float: right;
+    margin-top: 25px;
+ 
+}
+
+/* list-style tira marcador */
+#menu ul{
+/* negrito font-weight: bold */
+    list-style: none;
+    font-weight: bold;  
+}
+/* modifica aparencia do menu  */
+#menu li{
+    display: inline;
+}
+/* tirar o subilinhado  e mudar a cor das palavras do menu */
+/* comando padding e para fastar menu menu menu */
+#menu a{
+
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+/* quando passar o mouse em cima do menu fica laranja em baixo */
+#menu a:hover{
+    border-bottom: 4px solid orange;
+}
+/* modifica so a imagem */
+#principal img{
+
+    width: 1000px;
+    margin-top: 20px;
+}
+/* modifica o texto html css java */
+#secundario h2{
+    color: orange;
+}
+/* começa com ponto pq e uma tag */
+.coluna{
+    width: 320px;
+    float: left;
+    margin-right: 10px;
+
+}
+#secundario p{
+    text-align: justify;
+    color: rgb(157, 158, 158);
+    
+}
+/* clear both ele volta pro lado inicial */
+#rodape{
+    clear: both;
+    background-color: beige;
+    text-align: center;
+    color: black;
+    padding-top: 5px 0 10px 0;
+}
+#rodape img{
+    width: 35px;
+}

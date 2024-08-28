@@ -1,0 +1,41 @@
+/* seletor universal:aplica para toda a pagina */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* seletor de tipo */
+
+h1 {
+    color: #ff6A28;
+    text-align: center;
+}
+
+body{
+    background-color: cornsilk;
+    margin: 0 auto; /* centralizando na tela */
+    width: 70%;     /* reduzindo o tamanho */
+}
+/* seletor de id: aplica no id especifico */
+#subtitulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3c3c3c;
+
+}
+/* seletor de classe::
+aplica onde for especificada a propriedade classe */
+.destaque{
+    font-style: italic;
+}
+
+img{
+    width: 600px;
+    border: 2px red solid;
+}
+
+p{
+    text-align: justify;
+}
+
+li{
+
+   line-height: 30px;
+}
