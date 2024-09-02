@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h2>Cadastro de Aluno</h2>
+    <!-- começa por aq para formulario -->
+    <form>
+        <!-- etiqueta ou rotulo para nome  usando comando label-->
+        <!-- placeholder aparece uma msg dentro da caixinha o comando value também a diferença e que o placeholder nao precisa apagar -->
+        <!-- comando maxlength e para pessoa digitar somente o numero de caractere estabelecido  -->
+        <!-- colocando no type value da pra delimitar o valor para os numeros -->
+        <div id="borda">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="informe seu nome" maxlength="10">
+            </div>
+
+            <div>
+                <label for="matricula">Matricula</label>
+                <input type="number" id="matricula" name="matricula">
+            </div>
+            <div>
+                <label for="datanasc">Data Nascimento</label>
+                <input type="date" id="dataNasc" name="datanasc">
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <div>
+                <label for="curso">Curso</label>
+                <!-- cria uma opção com diferentes textos para selecionar -->
+                <select name="curso" id="curso">
+
+                    <option value="1">Informatica Básica</option>
+                    <option value="2">BrOfficie</option>
+                    <option value="3">Front-End</option>
+
+                </select>
+            </div>
+            <!-- input radio faz a bolinha para selecionar, se colocar name diferente vai poder marcar duas opçoes -->
+            <div>
+                <label>Sexo</label>
+                <input type="radio" id="masc" name="sexo">
+                <label for="mac">Masculino</label>
+                <input type="radio" id="fem" name="sexo">
+                <label for="fem">Feminino</label>
+            </div>
+            <!-- checkbox e para criar quadrados com multipla opçoes como idiomas -->
+            <div>
+                <label>Idiomas</label>
+                <input type="checkbox" id="pt" name="pt">
+                <label for="pt">Portugues</label>
+                <input type="checkbox" id="es" name="es">
+                <label for="es">Espanhol</label>
+            </div>
+            <!-- comando file e para upar um arquivo -->
+            <div>
+                <label>Foto</label>
+                <input type="file" id="foto" name="foto">
+            </div>
+            <!-- text are permite uma are maior para digitar -->
+            <div>
+                <label>Outras Informações</label>
+                <textarea name="inf" id="inf" cols="20" rows="5"></textarea>
+            </div>
+            <!-- buttom submit e reset o que muda e a função deles button e normal o submit e reset sao especificos para formulario -->
+            <div>
+                <input type="submit" value="Gravar">
+                <input type="reset" value="Limpar">
+            </div>
+
+
+
+
+
+    </form>
+    </div>
+
+</body>
+
+</html>

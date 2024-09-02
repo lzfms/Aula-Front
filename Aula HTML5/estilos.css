@@ -1,0 +1,39 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* aplicando estilos a vários elementos */
+
+header, nav, main, footer{
+    background-color: silver;
+    border: 1px black solid;
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav h2{
+    padding: 10px 0x 10px 0px;;
+}
+/* max widht e para a foto ir acompanhando tamanho da tela */
+img{
+    max-width: 100%;
+    width: 1200px;
+}
+
+.item{
+    width: 50%;
+    
+}
+/*  ficar um do lado do outro */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}

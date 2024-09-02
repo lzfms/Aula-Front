@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+body{
+    width: 300px;
+    text-align: justify;
+    
+}
+
+#form {
+    
+    text-align: justify;
+    
+    
+}
+
+label {
+    display: block;
+    width: 20%;
+    float: left;
+}
+
+.area {
+    margin-top: 30px;
+}
+
+.name{
+    margin-bottom: 10px;
+}
+.mensagem{
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+/* negrito */
+legend {
+    font-weight: bold;
+    
+}
+.enviar {
+    
+    float: right;
+    margin-top: 5px;
+    
+    
+}

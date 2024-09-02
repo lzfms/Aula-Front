@@ -1,0 +1,36 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 350px;
+}
+.borda{
+    border: 1px black solid;
+}
+.nomedoaluno{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.datadonascimento{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.nomedamae{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.nomedopai {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.telefone{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.serie {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
